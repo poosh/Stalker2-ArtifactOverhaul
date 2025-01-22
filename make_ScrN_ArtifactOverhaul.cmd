@@ -4,7 +4,7 @@ setlocal
 
 set AUTHOR=ScrN
 set PROJECT=ArtifactOverhaul
-set VERSION=v1.0.3
+set VERSION=v1.0.5
 
 set PAK=zzzz_%AUTHOR%_%PROJECT%_%VERSION%_P
 set UPAKDIR=..\..\unrealpak-main
