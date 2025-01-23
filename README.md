@@ -12,17 +12,17 @@ Stalker 2 has 70 artifacts, but most are useless other than for selling. Only a 
 - *Physical protection* effects encreased to 0.4/0.8/1.2/1.6 (armor bar's segments) for weak/medium/strong/maximum effect, respectively. The original weak/medium physical protection was nothing but a placebo.
 - **Weird Water** does not cause constant drunkness anymore. It increases stamina per action instead (an opposite effect of an energy drink). Instead of adding +50% weight (which is way OP), Weird Water adds +10kg total weight but +40kg "green" weight to reduce the overwheight stamina effect.
 
-## ScrN Consumable Overhaul
+## ScrN Consumable Item Overhaul (Optional)
 - Food restores health only when hungry.
-- Conjsuming food while not hungry makes you fat (reducec energy).
-- Food heals slowly but longer. Bread restores 30hp in 30s, Sausage - 60hp in 60s, Canned Food - 120hp in two minutes. The healing rate of the food is 1hp per second.
+- Consuming food while not hungry makes you fat (reduces energy).
+- Food heals slowly but longer. Bread restores 30hp in 30 seconds, Sausage - 60hp in 60s, and Canned Food - 120hp in two minutes. The healing rate of the food is 1hp per second.
 - The healing effects of the same food items do not stack - eating 3 sausages won't heal you more. However, different food times can be combined, e.g., making a sandwich in your stomach by eating bread + sausage.
 - Increased Beer hunger level. Now, drinking beer always makes you hungry. **Beer+Bread+Sausage** is a nice combo for healing outside of combat. It is considered healthy food in the Stalker universe.
 - Increased effects and longitude of energy drinks.
 - Water slightly improves stamina but lasts for 10 minutes.
 - Energy drinks do not cause hunger anymore. Neither water feeds.
 - Medkits are healing slower.
-- Red medkit does not reduce bleeding. Reduced bleeding reduction of blue and yellow medkits, too.
+- Red medkit does not reduce bleeding. The bleeding reduction of blue and yellow medkits was lowered, too.
 - Bandages restore health only when bleeding.
 
 ## Data
