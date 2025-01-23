@@ -43,11 +43,12 @@ Follow the same steps to uninstall or update the mod mid-game.
 ## Instalation
 Unzip the pak file into the `S.T.A.L.K.E.R. 2 Heart of Chornobyl\Stalker2\Content\Paks\~mods\` directory. If the `~mods` folder doesn't exist, create it.
 
-After the installation, there should be the `S.T.A.L.K.E.R. 2 Heart of Chornobyl\Stalker2\Content\Paks\~mods\zzzz_ScrN_ArtifactOverhaul_vX.Y.Z_P.pak` file, where X, Y, Z - version numbers.
+After the installation, there should be the `S.T.A.L.K.E.R. 2 Heart of Chornobyl\Stalker2\Content\Paks\~mods\zzzz_ScrN_ArtifactOverhaul_vX.Y.Z_P.pak` file (or `zzzz_ScrN_ItemAndArtifactOverhaul_vX.Y.Z_P.pak` if using Item Overhaul), where X, Y, Z - version numbers.
 
 ## Modified Files
-- *ArtifactPrototypes.cfg*
-- *EffectPrototypes.cfg*
+- ArtifactPrototypes.cfg
+- EffectPrototypes.cfg
+- *ConsumablePrototypes.cfg* (only if using ScrN Item Overhaul)
 
 ## Compatibility
 - Compatible with Stalker 2 v1.1.3.
