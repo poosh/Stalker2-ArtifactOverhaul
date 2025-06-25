@@ -2,7 +2,7 @@
 
 setlocal
 
-set VERSION=v1.1.2
+set VERSION=v1.5.0
 
 set UPAKDIR=..\..\unrealpak-main
 set STEAMDIR="c:\Steam\steamapps\common\S.T.A.L.K.E.R. 2 Heart of Chornobyl"
