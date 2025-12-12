@@ -2,7 +2,7 @@
 
 setlocal
 
-set VERSION=v1.7.1
+set VERSION=v1.7.3
 
 set UPAKDIR=..\..\unrealpak-main
 set STEAMDIR="c:\Steam\steamapps\common\S.T.A.L.K.E.R. 2 Heart of Chornobyl"
@@ -21,7 +21,9 @@ mkdir %UPAKDIR%\%PAKLITE% 2>nul
 mkdir %UPAKDIR%\%PAKLITE%\Stalker2 2>nul
 xcopy /F /I /Y /S Stalker2\* %UPAKDIR%\%PAKLITE%\Stalker2
 pushd %UPAKDIR%\%PAKLITE%\Stalker2\Content\GameLite\GameData\ItemPrototypes
-del ConsumablePrototypes.cfg
+del ..\EffectPrototypes\ScrN_ConsumableEffects.cfg
+del ConsumablePrototypes\ScrN_Consumables.cfg
+rmdir ConsumablePrototypes
 powershell -Command "(gc ArtifactPrototypes.cfg) -replace 'EEffectDisplayType::Value', 'EEffectDisplayType::EffectLevel' -replace 'true // Stamina2', 'false // Stamina2' | Out-File -encoding UTF8 ArtifactPrototypes.cfg"
 popd
 call :MakePak %PAKLITE%
