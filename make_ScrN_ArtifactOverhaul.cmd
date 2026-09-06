@@ -2,21 +2,21 @@
 
 setlocal
 
-set VERSION=v1.8.0
+set VERSION=v2.0.0
 
 set UPAKDIR=..\..\unrealpak-main
 set STEAMDIR="c:\Steam\steamapps\common\S.T.A.L.K.E.R. 2 Heart of Chornobyl"
 
 set CURDIR=%~dp0
 
-set PAK=zzzz_ScrN_ItemAndArtifactOverhaul_%VERSION%_P
+set PAK=ScrN_ItemAndArtifactOverhaul_%VERSION%_P
 del /S /Q %UPAKDIR%\%PAK%\ 2>nul
 mkdir %UPAKDIR%\%PAK% 2>nul
 mkdir %UPAKDIR%\%PAK%\Stalker2 2>nul
 xcopy /F /I /Y /S Stalker2\* %UPAKDIR%\%PAK%\Stalker2
 call :MakePak %PAK%
 
-set PAKLITE=zzzz_ScrN_ArtifactOverhaul_%VERSION%_P
+set PAKLITE=ScrN_ArtifactOverhaul_%VERSION%_P
 mkdir %UPAKDIR%\%PAKLITE% 2>nul
 mkdir %UPAKDIR%\%PAKLITE%\Stalker2 2>nul
 xcopy /F /I /Y /S Stalker2\* %UPAKDIR%\%PAKLITE%\Stalker2
