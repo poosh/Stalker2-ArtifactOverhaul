@@ -25,7 +25,7 @@ Stalker 2 has 70 artifacts, but most are useless other than for selling. Only a 
 - Red medkit does not reduce bleeding. The bleeding reduction of blue and yellow medkits was lowered, too.
 - Bandages restore health only when bleeding.
 
-## Data
+## Backend Data
 [Artifact Spreadsheet](https://docs.google.com/spreadsheets/d/1oKnN5awf-tXCC44Jiol00gqA5Sk8stNTeT32aAWHuN8/edit?usp=sharing)
 
 ## Preconditions
@@ -46,10 +46,10 @@ Unzip the pak file into the `S.T.A.L.K.E.R. 2 Heart of Chornobyl\Stalker2\Conten
 After the installation, there should be the `S.T.A.L.K.E.R. 2 Heart of Chornobyl\Stalker2\Content\Paks\~mods\zzzz_ScrN_ArtifactOverhaul_vX.Y.Z_P.pak` file (or `zzzz_ScrN_ItemAndArtifactOverhaul_vX.Y.Z_P.pak` if using Item Overhaul), where X, Y, Z - version numbers.
 
 ## Modified Files
-- ArtifactPrototypes.cfg
-- EffectPrototypes.cfg
-- *ConsumablePrototypes.cfg* (only if using ScrN Item Overhaul)
+- *ArtifactPrototypes.cfg*
+- Other files are tweaked either via refurl or bpatch
 
 ## Compatibility
-- Compatible with Stalker 2 v1.1.3.
-- Compatible with other mods that do not change the files above.
+- Compatible with Stalker2 v2.0
+- Compatible with other mods that do not change Artifacts.
+- Partially compatible with mods that alter consumables.

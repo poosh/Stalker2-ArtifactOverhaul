@@ -1,0 +1,10 @@
+This is the lite version of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3629209405]mod[/url] that changes only Artifacts without touching Items (Consumables) for maximum compatibility with the other mods.
+
+[h1]Compatibility[/h1]
+[list]
+[*] Compatible with Stalker2 v2.0
+[*] Compatible with other mods that do not change Artifacts.
+[/list]
+
+[h1]The Original (Full) Mod[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3629209405]ScrN Artifact and Item Overhaul[/url]
